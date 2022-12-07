@@ -12,9 +12,9 @@ import java.util.List;
 public class CarsListApplication {
     public static void main(String[] args) {
         List<Car> cars = new ArrayList<>();
-        Opel opel = new Opel(10);
-        cars.add(new Bmw(30));
-        cars.add(new Mazda(25));
+        Opel opel = new Opel(30);
+        cars.add(new Bmw(50));
+        cars.add(new Mazda(100));
         cars.add(opel);
 
         cars.remove(0);
